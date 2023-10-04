@@ -17,7 +17,7 @@ const Home: React.FC = () => {
     const getDataAPI = async () => {
         if (!inputValue) return;
 
-        const apiKey = '210dd652f30cd05248017ad4cb486e38';
+        const apiKey = '';
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
             inputValue
         )}&units=metric&appid=${apiKey}`;
